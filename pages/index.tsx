@@ -15,7 +15,7 @@ export default function Home() {
           name="viewport"
           content="width=device-width, initial-scale=1, maximum-scale=1"
         />
-        <link rel="icon" href="/pencil-favicon.ico" />
+        <link rel="icon" href="/favicon.ico" />
       </Head>
       {!user && <Login />}
       {user && <UserDashboard />}
