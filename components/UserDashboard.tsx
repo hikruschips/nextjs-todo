@@ -100,7 +100,7 @@ function UserDashboard() {
           placeholder="Enter todo"
           value={todo}
           onChange={(e) => setTodo(e.target.value)}
-          className="outline-none p-3 text-base sm:text-lg text-red-600 flex-1"
+          className="outline-none p-3 text-base sm:text-lg text-red-600 flex-1 placeholder-yellow-500"
         />
         <button
           onClick={handleAddTodo}
