@@ -104,7 +104,7 @@ function UserDashboard() {
         />
         <button
           onClick={handleAddTodo}
-          className="w-fit px-4 sm:px-6 py-2 sm:py-3 bg-red-600 text-white font-medium text-base duration-300 hover:opacity-40 cursor-pointer"
+          className="w-fit sm:px-6 py-2 sm:py-3 bg-red-600 text-white font-medium text-base duration-300 hover:opacity-40 cursor-pointer"
         >
           ADD
         </button>
