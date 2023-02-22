@@ -22,7 +22,7 @@ function Footer() {
           icon={faLinkedin}
         />
       </a> */}
-      <a target="_blank" href="https://github.com/hikruschips">
+      <a target="_blank" href="https://github.com/hikruschips/nextjs-todo">
         <FontAwesomeIcon
           className="duration-300 hover:opacity-30 cursor-pointer"
           icon={faGithubAlt}
