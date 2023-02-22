@@ -34,13 +34,7 @@ function Login() {
         setMessage("Logged In Successfully.");
       } else {
         //Sign Up
-        const userCredential = await createUserWithEmailAndPassword(
-          auth,
-          email,
-          password
-        );
-        await sendEmailVerification(userCredential.user);
-        setMessage("Verification Email has been sent.");
+        await createUserWithEmailAndPassword(auth, email, password);
       }
       setEmail("");
       setPassword("");
