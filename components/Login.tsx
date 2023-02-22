@@ -77,7 +77,7 @@ function Login() {
         type="email"
         name="email"
         placeholder="Email Address"
-        className="outline-none duration-300 border-b-2 border-solid border-white focus:border-cyan-300 text-red-600 p-2 w-full max-w-[40ch]"
+        className="outline-none duration-300 border-b-2 border-solid border-white focus:border-cyan-300 text-red-600 p-2 w-full max-w-[40ch] placeholder-yellow-500"
       />
       <input
         value={password}
@@ -85,7 +85,7 @@ function Login() {
         type="password"
         name="password"
         placeholder="Password"
-        className="outline-none text-red-600 p-2 w-full max-w-[40ch] duration-300 border-b-2 border-solid border-white focus:border-cyan-300"
+        className="outline-none text-red-600 p-2 w-full max-w-[40ch] duration-300 border-b-2 border-solid border-white focus:border-cyan-300 placeholder-yellow-500"
       />
       <button
         type="submit"
