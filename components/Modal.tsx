@@ -32,8 +32,8 @@ function Modal(props: ModalProps) {
     return null;
   }
   return ReactDom.createPortal(
-    <div className="fixed w-screen h-screen top-0 left-0 bg-white text-slate-900 text-lg sm:text-xl flex flex-col">
-      <div className="flex items-center justify-between border-b border-solid border-slate-900 p-4">
+    <div className="fixed w-screen h-screen top-0 left-0 bg-white text-red-600 text-lg sm:text-xl flex flex-col">
+      <div className="flex items-center justify-between border-b border-solid border-red-600 p-4">
         <h1 className="font-extrabold text-2xl sm:text-5xl select-none">
           MENU
         </h1>

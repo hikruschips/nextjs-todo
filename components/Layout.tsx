@@ -12,7 +12,7 @@ function Layout(props: LayoutProps) {
   const { children } = props;
   return (
     <div
-      className={`flex flex-col min-h-screen relative bg-slate-900 text-white ${open_Sans.className}`}
+      className={`flex flex-col min-h-screen relative bg-orange-600 text-white ${open_Sans.className}`}
     >
       <Header />
       <main className="flex-1 flex flex-col p-4">{children}</main>
